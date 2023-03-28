@@ -5,6 +5,73 @@
 
 header {
     display: flex;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    background-color: green;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+
 }
 
+.logo {
+    width: 6%;
+    
+}
+
+.containerNav{
+    width: 50%;
+    display: flex;
+}
+
+.navList {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+
+
+.navList > li {
+    list-style: none;
+    
+}
+
+.navList > li > a{
+    text-decoration: none;
+    font-family: 'Lucida Sans';
+    color: white;
+}
+
+.navList > li > a:hover{
+ 
+    color: red;
+}
+
+.mainContainer{
+    border: 1px solid rgb(219, 26, 26);
+    display: flex;
+}
+
+.containerDesarrollo{
+    border: 1px solid rgb(219, 26, 26);
+    width: 50%;
+    height: 300px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    
+    
+}
+
+.containerFormCorto{
+    border: 1px solid rgb(219, 26, 26);
+    width: 35%;
+}
+
+/* .formCorto{
+
+    margin: 200;
+
+} */
