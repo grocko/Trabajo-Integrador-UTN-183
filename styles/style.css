@@ -54,6 +54,7 @@ header {
 }
 
 .containerDesarrollo{
+    margin-top: 75.792px;
     border: 1px solid rgb(219, 26, 26);
     width: 50%;
     height: 300px;
@@ -66,6 +67,7 @@ header {
 }
 
 .containerFormCorto{
+    margin-top: 75.792px;
     border: 1px solid rgb(219, 26, 26);
     width: 35%;
 }
