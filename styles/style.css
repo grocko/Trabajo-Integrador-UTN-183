@@ -3,36 +3,17 @@
     padding: 0;
 }
 
-/* header {
-    display: flex;
-    /* border: 1px solid red; */
-/*     background-color: green;
-    justify-content: space-between;
-    position: fixed;
-    width: 100%;
-    top: 0; */
-
-/* } */ */
-
-/* .logo {
-    width: 6%;
-    
-} */
-
-.containerNav{
-    width: 50%;
-    display: flex;
+/* Barra de navegacion
+ */.bg-body-cust{
+    background-color: rgb(55, 191, 118);
 }
 
-.navList {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: end;
+.bordeMailContacto{
+    margin-right: 7px;
 }
 
 
-.navList > li {
+/* .navList > li {
     list-style: none;
     
 }
@@ -46,7 +27,7 @@
 .navList > li > a:hover{
  
     color: red;
-}
+} */
 
 .mainContainer{
     border: 1px solid rgb(219, 26, 26);
@@ -72,8 +53,6 @@
     width: 35%;
 }
 
-/* .formCorto{
-
-    margin: 200;
-
-} */
+.container{
+    border: 1px solid rgb(219, 26, 26);
+}
