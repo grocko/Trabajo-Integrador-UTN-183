@@ -4,13 +4,15 @@
 }
 
 /* Barra de navegacion
- */.bg-body-cust{
+ */
+ .bg-body-cust{
     background-color: rgb(55, 191, 118);
 }
 
 .bordeMailContacto{
     margin-right: 7px;
 }
+
 
 
 /* .navList > li {
@@ -29,7 +31,7 @@
     color: red;
 } */
 
-.mainContainer{
+/* .mainContainer{
     border: 1px solid rgb(219, 26, 26);
     display: flex;
 }
@@ -51,7 +53,7 @@
     margin-top: 75.792px;
     border: 1px solid rgb(219, 26, 26);
     width: 35%;
-}
+} */
 
 .container{
     border: 1px solid rgb(219, 26, 26);
