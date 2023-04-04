@@ -7,6 +7,7 @@
  */
  .bg-body-cust{
     background-color: rgb(55, 191, 118);
+    width: 100%;
 }
 
 .bordeMailContacto{
@@ -14,9 +15,11 @@
 }
 
 .contenedorDudas{
-    margin: 60px 120px;
+    margin: 120px 120px;
     background-image: url("../image/mujer_turista_md_cortada.jpg");
-    /* height: 700px; */
+    background-repeat: no-repeat;
+    background-size:cover
+ 
 }
 
 .contenedorDudas .columnaDudas p{
@@ -25,8 +28,19 @@
     color: rgb(212, 187, 187);
 } 
 
+.columnaDudas p{
+    padding: 30px;
+}
 
+#dudasparr-1{
+    font-size: 20px;
+    color: white;
+}
 
+#dudasparr-3{
+    font-size: 2rem;
+    color: #e4ba59;
+}
 /* .navList > li {
     list-style: none
     
