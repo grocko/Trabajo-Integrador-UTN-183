@@ -15,11 +15,20 @@
 
 .contenedorDudas{
     margin: 60px 120px;
+    background-image: url("../image/mujer_turista_md_cortada.jpg");
+    /* height: 700px; */
 }
+
+.contenedorDudas .columnaDudas p{
+    font-size: 2rem;
+    font-family: 'Alkatra', cursive;
+    color: rgb(212, 187, 187);
+} 
+
 
 
 /* .navList > li {
-    list-style: none;
+    list-style: none
     
 }
 
