@@ -42,6 +42,35 @@
     color: #e4ba59;
 }
 
+#divFormDudas{
+    padding: 40px;
+}
+#formDudas{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    padding: 40px;
+    margin: 30px 0px 30px 0px;
+}
+
+#formDudas > input{
+  
+}
+
+#formDudas > button{
+    width: 50%;
+    margin: 20px;
+    margin: 0px 130px;
+} 
+
+#formDudas > button:hover{
+    background-color: rgba(29, 71, 197, 0.411);
+    border: 2px solid rgb(196, 111, 111);
+    color: aliceblue;
+}
+
 .h1styles{
     height: 90px;
     background-color: rgba(0, 0, 0, 0.363);
@@ -94,6 +123,10 @@ h1{
 } */
 
 .container{
+    border: 1px solid rgb(219, 26, 26);
+}
+
+.bordeGuia{
     border: 1px solid rgb(219, 26, 26);
 }
 
