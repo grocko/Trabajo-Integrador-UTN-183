@@ -8,6 +8,7 @@
  .bg-body-cust{
     background-color: rgb(55, 191, 118);
     width: 100%;
+    z-index: 9999;
 }
 
 .bordeMailContacto{
