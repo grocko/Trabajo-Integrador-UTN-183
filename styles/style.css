@@ -189,8 +189,55 @@
     /* padding: 10px; */
 }
 
+
+.contenedor-footer-all{
+    background-color: rgb(133, 159, 244);
+    width: 100%;
+    display: flex;
+    
+}
+
+.box1{
+    width: 300px;
+    margin-top: 20px;
+}
+
+
+.box2{
+    width: 400px;
+}
+
+.box2 h2{
+    font-size: 28px;
+    font-family: 'Kalam', cursive;
+}
+
+/* .box2 > div{
+    display: flex;
+    
+    
+    
+} */
+
+
+
+.box3{
+    width: 400px;
+}
+
+.box3 h2{
+    font-size: 28px;
+    font-family: 'Kalam', cursive;
+}
+.contenedor-footer-copyright{
+    background-color: black;
+}
+
+.contenedor-footer-copyright div{
+    color: rgb(237, 211, 211);
+}
 .bordeGuia{
-    border: 1px solid rgb(219, 26, 26);
+    border: 1px solid rgb(241, 71, 71);
 }
 
 /* Media Q */
