@@ -69,6 +69,15 @@
     color: aliceblue;
 }
 
+.contTituServ::before{
+    display: block;       
+    content: " ";       
+    margin-top: -120px;       
+    height: 120px;       
+    visibility: hidden; 
+
+}
+
 .h1styles{
     height: 120px;
     font-size: 3rem;
@@ -141,6 +150,37 @@
 
 .nosCabezera > h2{
     color: rgb(11, 47, 124);
+}
+
+
+
+.contTituNos::before{
+    display: block;       
+    content: " ";       
+    margin-top: -120px;       
+    height: 120px;       
+    visibility: hidden; 
+
+}
+
+.grillaNosotros{
+    margin: 30px;
+   
+}
+
+/* .row-nosotros{
+    margin: 10px;
+} */
+
+
+.mmm {
+    
+    padding: 5px;
+}
+
+.separacion{
+    justify-content: space-between;
+    /* padding: 10px; */
 }
 
 .bordeGuia{
