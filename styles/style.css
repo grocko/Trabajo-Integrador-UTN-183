@@ -19,9 +19,13 @@
     margin: 120px 120px;
     background-image: url("../image/mujer_turista_md_cortada.jpg");
     background-repeat: no-repeat;
-    background-size:cover
+    background-size:cover;
+    background-position: center;
+    
  
 }
+
+
 
 .contenedorDudas .columnaDudas p{
     font-size: 2rem;
@@ -42,6 +46,7 @@
     font-size: 2rem;
     color: #e4ba59;
 }
+
 
 #divFormDudas{
     padding: 40px;
