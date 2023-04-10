@@ -233,11 +233,16 @@
 }
 .contenedor-footer-copyright{
     background-color: black;
+   
 }
 
-.contenedor-footer-copyright div{
+#contenedor-footer-copyright  h6{
     color: rgb(237, 211, 211);
+    align-content: center;
+    
+    
 }
+
 .bordeGuia{
     border: 1px solid rgb(241, 71, 71);
 }
