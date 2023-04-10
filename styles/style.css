@@ -58,15 +58,18 @@
 
 .formulario > input {
     border-radius: 3px;
+    align-items: center;
 }
 
 .formulario > textarea {
     border-radius: 3px;
 }
 #formDudas > button{
-    width: 50%;
-    margin: 20px;
-    margin: 0px 130px;
+    width: 70%;
+    min-width: 50%;
+    align-self: center;
+    /* margin: 20px;
+    margin: 0px 130px; */
 } 
 
 #formDudas > button:hover{
@@ -192,20 +195,19 @@
 
 .contenedor-footer-all{
     background-color: rgb(133, 159, 244);
-    width: 100%;
-    display: flex;
+
     
 }
 
 .box1{
-    width: 300px;
+    /* width: 400px; */
     margin-top: 20px;
 }
 
 
-.box2{
+/* .box2{
     width: 400px;
-}
+} */
 
 .box2 h2{
     font-size: 28px;
@@ -221,9 +223,9 @@
 
 
 
-.box3{
+/* .box3{
     width: 400px;
-}
+} */
 
 .box3 h2{
     font-size: 28px;
