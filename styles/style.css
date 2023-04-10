@@ -236,6 +236,10 @@
     font-size: 28px;
     font-family: 'Kalam', cursive;
 }
+
+/* #maps{
+    display:inline;
+} */
 .contenedor-footer-copyright{
     background-color: black;
    
