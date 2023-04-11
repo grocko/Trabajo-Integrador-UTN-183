@@ -209,28 +209,22 @@
     margin-top: 20px;
 }
 
-
-/* .box2{
-    width: 400px;
+/* .redes1{
+    margin-top: 1px;
 } */
+.redes2{
+    margin-top: 20px;
+}
 
 .box2 h2{
     font-size: 28px;
     font-family: 'Kalam', cursive;
 }
 
-/* .box2 > div{
-    display: flex;
+.row-footer a{
+    text-decoration: none;
     
-    
-    
-} */
-
-
-
-/* .box3{
-    width: 400px;
-} */
+}
 
 .box3 h2{
     font-size: 28px;
