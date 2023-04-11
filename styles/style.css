@@ -204,16 +204,42 @@
     
 }
 
-.box1{
+.container-logo-footer img{
+    width: 130px;
+    height: 130px;
+}
+.box1 figure a{
     /* width: 400px; */
     margin-top: 20px;
+    align-content: center;
+    justify-content: center;
 }
 
-/* .redes1{
-    margin-top: 1px;
-} */
-.redes2{
+
+
+.redes1 a{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 10px; */
+    /* padding: 2px; */
+    border: 2px solid rgb(50, 50, 227);
+    border-radius: 50%;
+    
+}
+.redes2 a{
     margin-top: 20px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 10px; */
+    /* padding: 2px; */
+    border: 2px solid rgb(50, 50, 227);
+    border-radius: 50%;
 }
 
 .box2 h2{
