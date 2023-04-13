@@ -227,9 +227,23 @@
     justify-content:center;
     margin-right: 12px;
     /* padding: 2px; */
-    border: 2px solid rgb(50, 50, 227);
+    border: 2px solid rgb(223, 223, 240);
     border-radius: 50%;
-    
+    transition: all 0.2 ease-in;
+}
+
+.contactanos-ico i{
+    color: rgb(223, 223, 240) ;
+    transition: all 0.2 ease-in;
+}
+
+.contactanos-ico a:hover{
+    background-color: white;
+    border: 2px solid black;
+}
+
+.contactanos-ico a:hover i{
+    color: black;
 }
 
 .redes1{
@@ -244,8 +258,21 @@
     justify-content: center;
     margin-right: 12px;
     /* padding: 2px; */
-    border: 2px solid rgb(50, 50, 227);
+    border: 2px solid rgb(223, 223, 240);
     border-radius: 50%;
+}
+
+.redes1 i{
+    color: rgb(223, 223, 240) ;
+    transition: all 0.2 ease-in;
+}
+.redes1 a:hover{
+    background-color: white;
+    border: 2px solid black;
+}
+
+.redes1 a:hover i{
+    color: black;
 }
 
 .box2 h2{
@@ -278,7 +305,15 @@
 #contenedor-footer-copyright  h6{
     color: rgb(237, 211, 211);
     align-content: center;
+    align-items: center;
     
+    
+}
+
+.row-copyright{
+    align-items: center;
+    justify-content: center;
+    padding: 5px ;
     
 }
 
@@ -287,3 +322,8 @@
 }
 
 /* Media Q */
+@media (min-width:320px) and (max-width: 530px){
+    #divFormDudas{
+        padding: 0px;
+    }
+}
