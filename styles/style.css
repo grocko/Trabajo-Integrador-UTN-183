@@ -44,7 +44,8 @@
 
 #dudasparr-3{
     font-size: 2rem;
-    color: #e4ba59;
+    color: #e3f74c;
+    
 }
 
 
@@ -73,8 +74,7 @@
     width: 70%;
     min-width: 50%;
     align-self: center;
-    /* margin: 20px;
-    margin: 0px 130px; */
+    
 } 
 
 #formDudas > button:hover{
@@ -99,7 +99,7 @@
     display: flex;
     padding: 30px;
     align-items: center;
-    /* align-content: flex-end; */
+    
 }
 
 
@@ -127,7 +127,7 @@
     top: 50%;
     left: 50%; 
     transform: translate(-50%, -50%); 
-    /* text-align:center; */
+    
     
     
 }
@@ -135,7 +135,7 @@
 .overlay p{
     font-size: 20px;
     font-family: 'Lobster', cursive;
-    /* font-weight: bold; */
+    
     margin-bottom: 0;
     
     
@@ -145,6 +145,7 @@
 .cuadricula{
     position:relative;
     display: flex;
+    padding: 12px;
     
 }
 .cuadricula:hover img{
@@ -182,10 +183,6 @@
    
 }
 
-/* .row-nosotros{
-    margin: 10px;
-} */
-
 
 .mmm {
     
@@ -194,7 +191,7 @@
 
 .separacion{
     justify-content: space-between;
-    /* padding: 10px; */
+    
 }
 
 
@@ -209,7 +206,7 @@
     height: 130px;
 }
 .box1 figure a{
-    /* width: 400px; */
+
     margin-top: 20px;
     align-content: center;
     justify-content: center;
@@ -226,7 +223,6 @@
     align-items: center;
     justify-content:center;
     margin-right: 12px;
-    /* padding: 2px; */
     border: 2px solid rgb(223, 223, 240);
     border-radius: 50%;
     transition: all 0.2 ease-in;
@@ -250,14 +246,14 @@
     margin-bottom: 20px;
 }
 .redes1 a{
-    /* margin-top: 20pxs; */
+    
     width: 30px;
     height: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-right: 12px;
-    /* padding: 2px; */
+    
     border: 2px solid rgb(223, 223, 240);
     border-radius: 50%;
 }
@@ -294,9 +290,7 @@
 }
 
 
-/* #maps{
-    display:inline;
-} */
+
 .contenedor-footer-copyright{
     background-color: black;
    
@@ -317,6 +311,10 @@
     
 }
 
+.h6copy{
+    display:flex;
+    justify-content: center;
+}
 .bordeGuia{
     border: 1px solid rgb(241, 71, 71);
 }
@@ -325,5 +323,37 @@
 @media (min-width:320px) and (max-width: 530px){
     #divFormDudas{
         padding: 0px;
+    }
+}
+
+@media (min-width:320px) and (max-width: 420px){
+   .contenedorDudas .columnaDudas p{
+    font-size: 1rem;
+    font-family: 'Alkatra', cursive;
+    color: rgb(194, 187, 212);
+    }
+
+    .columnaDudas p{
+        padding: 20px;
+    }
+
+    #dudasparr-1{
+    font-size: 15px;
+    color: white;
+    }
+
+    #dudasparr-3{
+    font-size: 1rem;
+    color: #e3f74c;
+    }
+
+}
+
+@media (min-width:320px) and (max-width: 721px){
+    #contenedor-footer-copyright > h6{
+        font-size: 8px;
+        display: flex;
+        justify-content: center;
+        
     }
 }
