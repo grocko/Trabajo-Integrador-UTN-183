@@ -30,7 +30,7 @@
 .contenedorDudas .columnaDudas p{
     font-size: 2rem;
     font-family: 'Alkatra', cursive;
-    color: rgb(212, 187, 187);
+    color: rgb(63, 72, 204);
 } 
 
 .columnaDudas p{
@@ -39,12 +39,12 @@
 
 #dudasparr-1{
     font-size: 20px;
-    color: white;
+    color: black;
 }
 
 #dudasparr-3{
     font-size: 2rem;
-    color: #e3f74c;
+    color: #B08B0A;
     
 }
 
