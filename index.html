@@ -23,7 +23,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Kalam:wght@700&family=Lobster&family=PT+Serif:ital,wght@1,700&display=swap" rel="stylesheet">
-
+  
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <title>Ciudadanía - Traducciones</title>
 </head>
 
@@ -95,12 +96,12 @@
         
         <div id="divFormDudas" class="columnaForm col-lg-6 col-md-6">
           <form id="formDudas" class="formulario"action="">
-            <input type="text" name="nombre" placeholder="Ingrese su nombre aquí">
+            <input type="text" name="username" placeholder="Ingrese su nombre aquí">
             <input type="text" name="apellido" placeholder="Ingrese su apellido">
             <input type="email" name="email" placeholder="Ingrese su correo">
             <input type="tel" name="telefono" placeholder="Ej: 11 32729909" pattern="[0-9]{2} [0-9]{8}">
             <textarea name="consulta" rows="4" placeholder="Ingrese aquí su consulta"></textarea> 
-            <button class="btnform">Enviar consulta</button>
+            <button type="submit" class="btnform">Enviar consulta</button>
           </form>
         </div>
 
@@ -339,7 +340,7 @@
     </div>
   </footer>
 
-  <!-- <script src="./app.js"></script> -->
+  <script type="module" src="./app.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
     crossorigin="anonymous"></script>
@@ -347,11 +348,11 @@
     integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i"
     crossorigin="anonymous"></script>
 
-  <script type="text/javascript">    
+ <!--  <script type="text/javascript">    
     $('.js-scroll-trigger').click(function() {
     $('.navbar-collapse').collapse('hide');
     });
-  </script>
+  </script> -->
 
 </body>
 
