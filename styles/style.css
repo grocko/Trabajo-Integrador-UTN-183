@@ -65,15 +65,19 @@
 .formulario > input {
     border-radius: 3px;
     align-items: center;
+    background:rgba(240, 240, 241, 0.411)
+    
 }
 
 .formulario > textarea {
     border-radius: 3px;
+    background:rgba(240, 240, 241, 0.411)
 }
 #formDudas > button{
     width: 70%;
     min-width: 50%;
     align-self: center;
+    
     
 } 
 
